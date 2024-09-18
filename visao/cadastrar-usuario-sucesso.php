@@ -1,45 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fest Bum</title>
-  <link rel="icon" href="../img/icon.webp" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="../css/style.css">
+  <title>Fest Bum - Personalizados</title>
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 </head>
 
-<body>
+  <body>
+
   <header>
-    <nav id="navbar">
-      <input type="checkbox" name="" id="toggler">
-      <label for="toggler" class="fas fa-bars"></label>
-      <a href="#" class="logo">FestBum<span></span></a>
-
-      <ul id="nav_list">
-        <li class="nav-item active"><a href="index.php">Início</a></li>
-      </ul>
-
-      <div class="icons">
-        <a href="#" class="fas fa-heart"></a>
-        <a href="login.php" class="fas fa-user"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
+      <div class="header-top">
+        <div class="container">
+          <ul class="header-social-container">
+            <li>
+              <a href="https://www.instagram.com/festbum_personalizados/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li> 
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <div class="header-alert-news">
+            <p>
+              <b>FRETE PERSONALIZADO</b>
+              PARA ENCOMENDAS
+            </p>
+          </div>
+          </div>
+        </div>
       </div>
-    </nav>
-    </header>
-
-    <!-- <main>
-      <section class="container-admin-banner">
-        <h1>Cadastro realizado com sucesso</h1>
-      </section>
-
-      <section class="container-form">
-        <form action="login.php" method="post">
-          <input type="submit" name="login" class="botao-cadastrar" value="Fazer login" />
-        </form>
-      </section>
-    </main> -->
+      <div class="header-main">
+        <div class="container">
+          <a href="#" class="header-logo">
+            <img src="../assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
+          </a> 
+          <div class="header-user-actions">
+            <a href="login.php">
+              <button class="action-btn">
+                <ion-icon name="person-outline"></ion-icon>
+              </button>
+            </a>
+            <a href="cadastrar-usuario.php">
+              <button class="action-btn">
+                <ion-icon name="heart-outline"></ion-icon>
+                <span class="count">0</span>
+              </button>
+            </a>
+            
+            <!-- <a href=".php"></a> -->
+              <button class="action-btn">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+                <span class="count">0</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+  <heder>
 
       <!-- Modal de Sucesso -->
       <div id="successModal" class="modal">
