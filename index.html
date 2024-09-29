@@ -21,9 +21,7 @@
   <div class="overlay" data-overlay></div>
 
 
-  <!--
-    - HEADER
-  -->
+  <!--- HEADER-->
 
   <header>
 
@@ -44,8 +42,8 @@
             </a>
           </li>
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
+            <a href="https://api.whatsapp.com/send/?phone=5511948268791&text&type=phone_number&app_absent=0" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
           </li>
 
@@ -151,7 +149,7 @@
               <ul class="dropdown-panel-list">
 
                 <li class="menu-title">
-                  <a href="#">Decoração</a>
+                  <a href="#"> Tags</a>
                 </li>
 
                 <li class="panel-list-item">
@@ -174,7 +172,7 @@
               <ul class="dropdown-panel-list">
 
                 <li class="menu-title">
-                  <a href="#">Kits e Complementos</a>
+                  <a href="#">Adesivos</a>
                 </li>
 
                 <li class="panel-list-item">
@@ -206,31 +204,16 @@
                 </li>
 
                 <li class="panel-list-item">
-                  <a hre<!DOCTYPE html>
-                    <html lang="pt">
-                    <head>
-                      <meta charset="UTF-8">
-                      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                      <title>Fest Bum</title>
-                      <link rel="icon" href="../img/icon.webp" type="image/x-icon">
-                      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-                      <link rel="stylesheet" href="./assets/css/style.css">
-                    
-                    </head>f="#">Taça</a>
-                </li>
-
-                <li class="panel-list-item">
                   <a href="#">Tubetes</a>
                 </li>
 
               </ul>
 
-            </div>
-          </li>
+            
+          
          
           <li class="menu-category">
-            <a href="#" class="menu-title">Emabalagens</a>
+            <a href="#embalagens" class="menu-title">Emabalagens</a>
 
             <ul class="dropdown-list">
 
@@ -253,32 +236,9 @@
             </ul>
           </li>
 
-          <li class="menu-category">
-            <a href="#" class="menu-title">Decoração</a>
-
-            <ul class="dropdown-list">
-
-              <li class="dropdown-item">
-                <a href="#">Recortes</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Livros</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Polaroid</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Arranjos</a>
-              </li>
-
-            </ul>
-          </li>
 
           <li class="menu-category">
-            <a href="#" class="menu-title">Kits e Complementos</a>
+            <a href="#" class="menu-title">Adesivos </a>
 
             <ul class="dropdown-list">
 
@@ -297,7 +257,7 @@
           </li>
 
           <li class="menu-category">
-            <a href="#" class="menu-title">Personalizadas</a>
+            <a href="#" class="menu-title">Personalizados</a>
 
             <ul class="dropdown-list">
 
@@ -320,6 +280,30 @@
             </ul>
           </li>
 
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Tags</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Garrafa</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Caneca</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Taça</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Tubetes</a>
+              </li>
+
+            </ul>
+          </li>
           <li class="menu-category">
             <a href="#" class="menu-title">Avaliações</a>
           </li>
@@ -333,33 +317,31 @@
       </div>
 
     </nav>
-
+<!--Adicionando js para os botões do celular-->
     <div class="mobile-bottom-navigation">
 
       <button class="action-btn" data-mobile-menu-open-btn>
         <ion-icon name="menu-outline"></ion-icon>
       </button>
 
-      <button class="action-btn">
-        <ion-icon name="bag-handle-outline"></ion-icon>
+      <a href="mercado.html">
+        <button class="action-btn">
+          <ion-icon name="bag-handle-outline"></ion-icon>
+          <span class="count">0</span>
+        </button>
+     </a>
+      <a href="home2.html">
+        <button class="action-btn">
+          <ion-icon name="home-outline"></ion-icon>
+        </button>
+      </a>
 
-        <span class="count">0</span>
-      </button>
-
-      <button class="action-btn">
-        <ion-icon name="home-outline"></ion-icon>
-      </button>
-
-      <button class="action-btn">
-        <ion-icon name="heart-outline"></ion-icon>
-
-        <span class="count">0</span>
-      </button>
-
-      <button class="action-btn" data-mobile-menu-open-btn>
-        <ion-icon name="grid-outline"></ion-icon>
-      </button>
-
+      <a href="favoritos.html">
+        <button class="action-btn">
+          <ion-icon name="heart-outline"></ion-icon>
+          <span class="count">0</span>
+        </button>
+      </a>
     </div>
 
     <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
@@ -381,7 +363,7 @@
         <li class="menu-category">
 
           <button class="accordion-menu" data-accordion-btn>
-            <p class="menu-title">Embalagens</p>
+            <a href="#embalagens" class="menu-title">Embalagens</p>
 
             <div>
               <ion-icon name="add-outline" class="add-icon"></ion-icon>
@@ -412,7 +394,7 @@
         <li class="menu-category">
 
           <button class="accordion-menu" data-accordion-btn>
-            <p class="menu-title">Decoração</p>
+            <p class="menu-title">Adesivos</p>
 
             <div>
               <ion-icon name="add-outline" class="add-icon"></ion-icon>
@@ -441,11 +423,12 @@
           </ul>
 
         </li>
+        
 
         <li class="menu-category">
 
           <button class="accordion-menu" data-accordion-btn>
-            <p class="menu-title">  Kits e Complementos</p>
+            <p class="menu-title">  Personalizados</p>
 
             <div>
               <ion-icon name="add-outline" class="add-icon"></ion-icon>
@@ -470,38 +453,7 @@
 
         </li>
 
-        <li class="menu-category">
-
-          <button class="accordion-menu" data-accordion-btn>
-            <p class="menu-title">Personalizadas</p>
-
-            <div>
-              <ion-icon name="add-outline" class="add-icon"></ion-icon>
-              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
-            </div>
-          </button>
-
-          <ul class="submenu-category-list" data-accordion>
-
-            <li class="submenu-category">
-              <a href="#" class="submenu-title">Garrafa</a>
-            </li>
-
-            <li class="submenu-category">
-              <a href="#" class="submenu-title">Caneca</a>
-            </li>
-
-            <li class="submenu-category">
-              <a href="#" class="submenu-title">Taça</a>
-            </li>
-
-            <li class="submenu-category">
-              <a href="#" class="submenu-title">Tubetes</a>
-            </li>
-
-          </ul>
-
-        </li>
+        
 
         <li class="menu-category">
           <a href="#" class="menu-title">Avaliações</a>
@@ -518,28 +470,23 @@
         <ul class="menu-social-container">
 
           <li>
+            <a href="https://www.instagram.com/festbum_personalizados/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> 
+
+          <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="https://api.whatsapp.com/send/?phone=5511948268791&text&type=phone_number&app_absent=0" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
           </li>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
 
         </ul>
 
@@ -553,15 +500,11 @@
 
 
 
-  <!--
-    - MAIN
-  -->
+  <!--- MAIN -->
 
   <main>
 
-    <!--
-      - BANNER
-    -->
+    <!--- BANNER-->
 
     <div class="banner">
 
@@ -577,7 +520,7 @@
 
               <p class="banner-subtitle">Personalizados</p>
 
-              <h2 class="banner-title">Garrafas e Topos de Bolo</h2>
+              <h2 class="banner-title">Materiais Escolares</h2>
 
               <p class="banner-text">
                 apartir de &dollar; <b>20</b>.00
@@ -639,9 +582,7 @@
 
 
 
-    <!--
-      - CATEGORY
-    -->
+    <!--- CATEGORIA --->
 
     <div class="category">
 
@@ -660,7 +601,7 @@
               <div class="category-content-flex">
                 <h3 class="category-item-title">Embalagens</h3>
 
-                <p class="category-item-amount">(53)</p>
+                <p class="category-item-amount">(10)</p>
               </div>
 
               <a href="#" class="category-btn">Mostre Todos</a>
@@ -678,7 +619,7 @@
             <div class="category-content-box">
 
               <div class="category-content-flex">
-                <h3 class="category-item-title">Decoração</h3>
+                <h3 class="category-item-title">Adesivos</h3>
 
                 <p class="category-item-amount">(58)</p>
               </div>
@@ -698,7 +639,7 @@
             <div class="category-content-box">
 
               <div class="category-content-flex">
-                <h3 class="category-item-title">Kits</h3>
+                <h3 class="category-item-title">Tags</h3>
 
                 <p class="category-item-amount">(68)</p>
               </div>
@@ -718,7 +659,7 @@
             <div class="category-content-box">
 
               <div class="category-content-flex">
-                <h3 class="category-item-title">Adesivos</h3>
+                <h3 class="category-item-title">Personalizados</h3>
 
                 <p class="category-item-amount">(84)</p>
               </div>
@@ -732,91 +673,126 @@
           </div>
           </div>
     
-          
-
-
-
-
-    <!--
-      - PRODUCT
-    -->
+<!--- PRODUTOS -->
 
     <div class="product-container">
 
-      <div class="container">
+        <div class="container">
+  
+   <!-- PRODUCT GRID -->
+   <div class="product-main">
 
+    <h2 class="title">PRODUTOS</h2>
 
-      
+    <div class="product-grid">
 
+      <div class="showcase">
 
-          <!--
-            - PRODUCT GRID
-          -->
+        <div class="showcase-banner">
 
-          <div class="product-main">
+          <img src="./assets/images/products/garrafas.jpeg.webp" alt="" width="300" class="product-img default">
+          <img src="./assets/images/products/garrafa2.jpeg" alt="" width="300" class="product-img hover">
 
-            <h2 class="title">PRODUTOS</h2>
+          <p class="showcase-badge">15%</p>
 
-            <div class="product-grid">
+          <div class="showcase-actions">
 
-              <div class="showcase">
+            <button class="btn-action">
+              <ion-icon name="heart-outline"></ion-icon>
+            </button>
 
-                <div class="showcase-banner">
+            <button class="btn-action">
+              <ion-icon name="eye-outline"></ion-icon>
+            </button>
 
-                  <img src="./assets/images/products/garrafas.jpeg.webp" alt="" width="300" class="product-img default">
-                  <img src="./assets/images/products/garrafa2.jpeg" alt="" width="300" class="product-img hover">
+            <button class="btn-action">
+              <ion-icon name="repeat-outline"></ion-icon>
+            </button>
 
-                  <p class="showcase-badge">15%</p>
+            <button class="btn-action">
+              <ion-icon name="bag-add-outline"></ion-icon>
+            </button>
 
-                  <div class="showcase-actions">
+          </div>
 
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
+        </div>
+        <section id="embalagens">
+        <div class="showcase-content">
 
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
+            <a href="#" class="showcase-category">Caixa Meia Bala</a>
 
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
+            <a href="#">
+              <h3 class="showcase-title">3CM = R$15,00</h3>
+              <h3 class="showcase-title">6CM = R$25,00</h3>
+            </a>
 
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
+            <div class="showcase-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
 
-                  </div>
+            <div class="price-box">
+              <p class="price">A partir de R$15,00</p>
+              <del>$35,00</del>
+            </div>
+          </div>
+        </div>
 
-                </div>
-
-                <div class="showcase-content">
-
-                  <a href="#" class="showcase-category">Garrafa</a>
-
-                  <a href="#">
-                    <h3 class="showcase-title">3CM = R$15,00</h3>
-                    <h3 class="showcase-title">6CM = R$25,00</h3>
-                  </a>
-
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-
-                  <div class="price-box">
-                    <p class="price">A partir de R$15,00</p>
-                    <del>$35,00</del>
-                  </div>
-
-                </div>
-
+        <div class="showcase">
+              
+            <div class="showcase-banner">
+              <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                width="300">
+              <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                width="300">
+          
+              <p class="showcase-badge angle black">sale</p>
+          
+              <div class="showcase-actions">
+                <button class="btn-action">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
               </div>
+            </div>
 
-              <div class="showcase">
+            <div class="showcase-content">
+                <a href="#" class="showcase-category">Caixa Pirâmide</a>
+            
+                <h3>
+                  <a href="#" class="showcase-title">Eternize seus momentos</a>
+                </h3>
+            
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+            
+                <div class="price-box">
+                  <p class="price">$2,00</p>
+                  <del>$5,00</del>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase">
               
                 <div class="showcase-banner">
                   <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
@@ -844,12 +820,878 @@
                     </button>
                   </div>
                 </div>
-              
+    
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">Polaroid</a>
+                    <a href="#" class="showcase-category">Caixa Milk C/ Laço</a>
+                
+                    <h3>
+                      <a href="#" class="showcase-title">Eternize seus momentos</a>
+                    </h3>
+                
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                
+                    <div class="price-box">
+                      <p class="price">$2,00</p>
+                      <del>$5,00</del>
+                    </div>
+                  </div>
+                </div>
+              </section>
+                <div class="showcase">
+              
+                    <div class="showcase-banner">
+                      <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                        width="300">
+                      <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                        width="300">
+                  
+                      <p class="showcase-badge angle black">sale</p>
+                  
+                      <div class="showcase-actions">
+                        <button class="btn-action">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+                  
+                        <button class="btn-action">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+                  
+                        <button class="btn-action">
+                          <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+                  
+                        <button class="btn-action">
+                          <ion-icon name="bag-add-outline"></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+        
+                    <div class="showcase-content">
+                        <a href="#" class="showcase-category">Agradecimento de Mesa</a>
+                    
+                        <h3>
+                          <a href="#" class="showcase-title">Eternize seus momentos</a>
+                        </h3>
+                    
+                        <div class="showcase-rating">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star-outline"></ion-icon>
+                          <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                    
+                        <div class="price-box">
+                          <p class="price">$2,00</p>
+                          <del>$5,00</del>
+                        </div>
+                      </div>
+                    </div>
+
+            <div class="showcase">
+              
+                        <div class="showcase-banner">
+                          <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                            width="300">
+                          <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                            width="300">
+                      
+                          <p class="showcase-badge angle black">sale</p>
+                      
+                          <div class="showcase-actions">
+                            <button class="btn-action">
+                              <ion-icon name="heart-outline"></ion-icon>
+                            </button>
+                      
+                            <button class="btn-action">
+                              <ion-icon name="eye-outline"></ion-icon>
+                            </button>
+                      
+                            <button class="btn-action">
+                              <ion-icon name="repeat-outline"></ion-icon>
+                            </button>
+                      
+                            <button class="btn-action">
+                              <ion-icon name="bag-add-outline"></ion-icon>
+                            </button>
+                          </div>
+                        </div>
+            
+                        <div class="showcase-content">
+                            <a href="#" class="showcase-category">Idade em Recorte</a>
+                        
+                            <h3>
+                              <a href="#" class="showcase-title">3 subtopicos para dd dps</a>
+                            </h3>
+                        
+                            <div class="showcase-rating">
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star-outline"></ion-icon>
+                              <ion-icon name="star-outline"></ion-icon>
+                            </div>
+                        
+                            <div class="price-box">
+                              <p class="price">$2,00</p>
+                              <del>$5,00</del>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="showcase">
+              
+                            <div class="showcase-banner">
+                              <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                                width="300">
+                              <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                                width="300">
+                          
+                              <p class="showcase-badge angle black">sale</p>
+                          
+                              <div class="showcase-actions">
+                                <button class="btn-action">
+                                  <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                          
+                                <button class="btn-action">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                                </button>
+                          
+                                <button class="btn-action">
+                                  <ion-icon name="repeat-outline"></ion-icon>
+                                </button>
+                          
+                                <button class="btn-action">
+                                  <ion-icon name="bag-add-outline"></ion-icon>
+                                </button>
+                              </div>
+                            </div>
+                
+                            <div class="showcase-content">
+                                <a href="#" class="showcase-category">Nome Em Recorte</a>
+                            
+                                <h3>
+                                  <a href="#" class="showcase-title">Com ou Sem fundo</a>
+                                </h3>
+                            
+                                <div class="showcase-rating">
+                                  <ion-icon name="star"></ion-icon>
+                                  <ion-icon name="star"></ion-icon>
+                                  <ion-icon name="star"></ion-icon>
+                                  <ion-icon name="star-outline"></ion-icon>
+                                  <ion-icon name="star-outline"></ion-icon>
+                                </div>
+                            
+                                <div class="price-box">
+                                  <p class="price">$2,00</p>
+                                  <del>$5,00</del>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="showcase">
+              
+                                <div class="showcase-banner">
+                                  <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                                    width="300">
+                                  <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                                    width="300">
+                              
+                                  <p class="showcase-badge angle black">sale</p>
+                              
+                                  <div class="showcase-actions">
+                                    <button class="btn-action">
+                                      <ion-icon name="heart-outline"></ion-icon>
+                                    </button>
+                              
+                                    <button class="btn-action">
+                                      <ion-icon name="eye-outline"></ion-icon>
+                                    </button>
+                              
+                                    <button class="btn-action">
+                                      <ion-icon name="repeat-outline"></ion-icon>
+                                    </button>
+                              
+                                    <button class="btn-action">
+                                      <ion-icon name="bag-add-outline"></ion-icon>
+                                    </button>
+                                  </div>
+                                </div>
+                    
+                                <div class="showcase-content">
+                                    <a href="#" class="showcase-category">Tabuada</a>
+                                
+                                    <h3>
+                                      <a href="#" class="showcase-title">Eternize seus momentos</a>
+                                    </h3>
+                                
+                                    <div class="showcase-rating">
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star-outline"></ion-icon>
+                                      <ion-icon name="star-outline"></ion-icon>
+                                    </div>
+                                
+                                    <div class="price-box">
+                                      <p class="price">$2,00</p>
+                                      <del>$5,00</del>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <div class="showcase">
+              
+                                    <div class="showcase-banner">
+                                      <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                                        width="300">
+                                      <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                                        width="300">
+                                  
+                                      <p class="showcase-badge angle black">sale</p>
+                                  
+                                      <div class="showcase-actions">
+                                        <button class="btn-action">
+                                          <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                  
+                                        <button class="btn-action">
+                                          <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                  
+                                        <button class="btn-action">
+                                          <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                  
+                                        <button class="btn-action">
+                                          <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                      </div>
+                                    </div>
+                        
+                                    <div class="showcase-content">
+                                        <a href="#" class="showcase-category">Livro para colorir</a>
+                                    
+                                        <h3>
+                                          <a href="#" class="showcase-title">Eternize seus momentos</a>
+                                        </h3>
+                                    
+                                        <div class="showcase-rating">
+                                          <ion-icon name="star"></ion-icon>
+                                          <ion-icon name="star"></ion-icon>
+                                          <ion-icon name="star"></ion-icon>
+                                          <ion-icon name="star-outline"></ion-icon>
+                                          <ion-icon name="star-outline"></ion-icon>
+                                        </div>
+                                    
+                                        <div class="price-box">
+                                          <p class="price">$2,00</p>
+                                          <del>$5,00</del>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="showcase">
+              
+                                        <div class="showcase-banner">
+                                          <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                                            width="300">
+                                          <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                                            width="300">
+                                      
+                                          <p class="showcase-badge angle black">sale</p>
+                                      
+                                          <div class="showcase-actions">
+                                            <button class="btn-action">
+                                              <ion-icon name="heart-outline"></ion-icon>
+                                            </button>
+                                      
+                                            <button class="btn-action">
+                                              <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                      
+                                            <button class="btn-action">
+                                              <ion-icon name="repeat-outline"></ion-icon>
+                                            </button>
+                                      
+                                            <button class="btn-action">
+                                              <ion-icon name="bag-add-outline"></ion-icon>
+                                            </button>
+                                          </div>
+                                        </div>
+                            
+                                        <div class="showcase-content">
+                                            <a href="#" class="showcase-category">Giz de Cera</a>
+                                        
+                                            <h3>
+                                              <a href="#" class="showcase-title">Eternize seus momentos</a>
+                                            </h3>
+                                        
+                                            <div class="showcase-rating">
+                                              <ion-icon name="star"></ion-icon>
+                                              <ion-icon name="star"></ion-icon>
+                                              <ion-icon name="star"></ion-icon>
+                                              <ion-icon name="star-outline"></ion-icon>
+                                              <ion-icon name="star-outline"></ion-icon>
+                                            </div>
+                                        
+                                            <div class="price-box">
+                                              <p class="price">$2,00</p>
+                                              <del>$5,00</del>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="showcase">
+              
+                                            <div class="showcase-banner">
+                                              <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                                                width="300">
+                                              <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                                                width="300">
+                                          
+                                              <p class="showcase-badge angle black">sale</p>
+                                          
+                                              <div class="showcase-actions">
+                                                <button class="btn-action">
+                                                  <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+                                          
+                                                <button class="btn-action">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+                                          
+                                                <button class="btn-action">
+                                                  <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+                                          
+                                                <button class="btn-action">
+                                                  <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+                                              </div>
+                                            </div>
+                                
+                                            <div class="showcase-content">
+                                                <a href="#" class="showcase-category">Lápis personalizado</a>
+                                            
+                                                <h3>
+                                                  <a href="#" class="showcase-title">Eternize seus momentos</a>
+                                                </h3>
+                                            
+                                                <div class="showcase-rating">
+                                                  <ion-icon name="star"></ion-icon>
+                                                  <ion-icon name="star"></ion-icon>
+                                                  <ion-icon name="star"></ion-icon>
+                                                  <ion-icon name="star-outline"></ion-icon>
+                                                  <ion-icon name="star-outline"></ion-icon>
+                                                </div>
+                                            
+                                                <div class="price-box">
+                                                  <p class="price">$2,00</p>
+                                                  <del>$5,00</del>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            
+                                            <div class="showcase">
+              
+                                                <div class="showcase-banner">
+                                                  <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                                                    width="300">
+                                                  <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                                                    width="300">
+                                              
+                                                  <p class="showcase-badge angle black">sale</p>
+                                              
+                                                  <div class="showcase-actions">
+                                                    <button class="btn-action">
+                                                      <ion-icon name="heart-outline"></ion-icon>
+                                                    </button>
+                                              
+                                                    <button class="btn-action">
+                                                      <ion-icon name="eye-outline"></ion-icon>
+                                                    </button>
+                                              
+                                                    <button class="btn-action">
+                                                      <ion-icon name="repeat-outline"></ion-icon>
+                                                    </button>
+                                              
+                                                    <button class="btn-action">
+                                                      <ion-icon name="bag-add-outline"></ion-icon>
+                                                    </button>
+                                                  </div>
+                                                </div>
+                                    
+                                                <div class="showcase-content">
+                                                    <a href="#" class="showcase-category">Tubete Personalizado</a>
+                                                
+                                                    <h3>
+                                                      <a href="#" class="showcase-title">3d ou normal. ADD</a>
+                                                    </h3>
+                                                
+                                                    <div class="showcase-rating">
+                                                      <ion-icon name="star"></ion-icon>
+                                                      <ion-icon name="star"></ion-icon>
+                                                      <ion-icon name="star"></ion-icon>
+                                                      <ion-icon name="star-outline"></ion-icon>
+                                                      <ion-icon name="star-outline"></ion-icon>
+                                                    </div>
+                                                
+                                                    <div class="price-box">
+                                                      <p class="price">$2,00</p>
+                                                      <del>$5,00</del>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                            
+                                                <div class="showcase">
+              
+                                                    <div class="showcase-banner">
+                                                      <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                                                        width="300">
+                                                      <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                                                        width="300">
+                                                  
+                                                      <p class="showcase-badge angle black">sale</p>
+                                                  
+                                                      <div class="showcase-actions">
+                                                        <button class="btn-action">
+                                                          <ion-icon name="heart-outline"></ion-icon>
+                                                        </button>
+                                                  
+                                                        <button class="btn-action">
+                                                          <ion-icon name="eye-outline"></ion-icon>
+                                                        </button>
+                                                  
+                                                        <button class="btn-action">
+                                                          <ion-icon name="repeat-outline"></ion-icon>
+                                                        </button>
+                                                  
+                                                        <button class="btn-action">
+                                                          <ion-icon name="bag-add-outline"></ion-icon>
+                                                        </button>
+                                                      </div>
+                                                    </div>
+                                        
+                                                    <div class="showcase-content">
+                                                        <a href="#" class="showcase-category">Sacolas Personalizadas</a>
+                                                    
+                                                        <h3>
+                                                          <a href="#" class="showcase-title">PEQUENAS OU GRANDES ADD</a>
+                                                        </h3>
+                                                    
+                                                        <div class="showcase-rating">
+                                                          <ion-icon name="star"></ion-icon>
+                                                          <ion-icon name="star"></ion-icon>
+                                                          <ion-icon name="star"></ion-icon>
+                                                          <ion-icon name="star-outline"></ion-icon>
+                                                          <ion-icon name="star-outline"></ion-icon>
+                                                        </div>
+                                                    
+                                                        <div class="price-box">
+                                                          <p class="price">$2,00</p>
+                                                          <del>$5,00</del>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <div class="showcase">
+              
+                                                        <div class="showcase-banner">
+                                                          <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                                                            width="300">
+                                                          <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                                                            width="300">
+                                                      
+                                                          <p class="showcase-badge angle black">sale</p>
+                                                      
+                                                          <div class="showcase-actions">
+                                                            <button class="btn-action">
+                                                              <ion-icon name="heart-outline"></ion-icon>
+                                                            </button>
+                                                      
+                                                            <button class="btn-action">
+                                                              <ion-icon name="eye-outline"></ion-icon>
+                                                            </button>
+                                                      
+                                                            <button class="btn-action">
+                                                              <ion-icon name="repeat-outline"></ion-icon>
+                                                            </button>
+                                                      
+                                                            <button class="btn-action">
+                                                              <ion-icon name="bag-add-outline"></ion-icon>
+                                                            </button>
+                                                          </div>
+                                                        </div>
+                                            
+                                                        <div class="showcase-content">
+                                                            <a href="#" class="showcase-category">Adesivos C/ Logo</a>
+                                                        
+                                                            <h3>
+                                                              <a href="#" class="showcase-title">ADD REDONDO OU QUADRADO</a>
+                                                            </h3>
+                                                        
+                                                            <div class="showcase-rating">
+                                                              <ion-icon name="star"></ion-icon>
+                                                              <ion-icon name="star"></ion-icon>
+                                                              <ion-icon name="star"></ion-icon>
+                                                              <ion-icon name="star-outline"></ion-icon>
+                                                              <ion-icon name="star-outline"></ion-icon>
+                                                            </div>
+                                                        
+                                                            <div class="price-box">
+                                                              <p class="price">$2,00</p>
+                                                              <del>$5,00</del>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+
+                                                        <div class="showcase">
+              
+                                                            <div class="showcase-banner">
+                                                              <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                                                                width="300">
+                                                              <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                                                                width="300">
+                                                          
+                                                              <p class="showcase-badge angle black">sale</p>
+                                                          
+                                                              <div class="showcase-actions">
+                                                                <button class="btn-action">
+                                                                  <ion-icon name="heart-outline"></ion-icon>
+                                                                </button>
+                                                          
+                                                                <button class="btn-action">
+                                                                  <ion-icon name="eye-outline"></ion-icon>
+                                                                </button>
+                                                          
+                                                                <button class="btn-action">
+                                                                  <ion-icon name="repeat-outline"></ion-icon>
+                                                                </button>
+                                                          
+                                                                <button class="btn-action">
+                                                                  <ion-icon name="bag-add-outline"></ion-icon>
+                                                                </button>
+                                                              </div>
+                                                            </div>
+                                                
+                                                            <div class="showcase-content">
+                                                                <a href="#" class="showcase-category">Adesivos para Bala</a>
+                                                            
+                                                                <h3>
+                                                                  <a href="#" class="showcase-title">Crd ou NORMAL</a>
+                                                                </h3>
+                                                            
+                                                                <div class="showcase-rating">
+                                                                  <ion-icon name="star"></ion-icon>
+                                                                  <ion-icon name="star"></ion-icon>
+                                                                  <ion-icon name="star"></ion-icon>
+                                                                  <ion-icon name="star-outline"></ion-icon>
+                                                                  <ion-icon name="star-outline"></ion-icon>
+                                                                </div>
+                                                            
+                                                                <div class="price-box">
+                                                                  <p class="price">$2,00</p>
+                                                                  <del>$5,00</del>
+                                                                </div>
+                                                              </div>
+                                                            </div>        
+                                                            
+             <div class="showcase                                                ">
+              
+            <div class="showcase-banner">
+              <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                width="300">
+              <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                width="300">
+          
+              <p class="showcase-badge angle black">sale</p>
+          
+              <div class="showcase-actions">
+                <button class="btn-action">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="showcase-content">
+                <a href="#" class="showcase-category">Lacre para Sacolas</a>
+            
+                <h3>
+                  <a href="#" class="showcase-title">Eternize seus momentos</a>
+                </h3>
+            
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+            
+                <div class="price-box">
+                  <p class="price">$2,00</p>
+                  <del>$5,00</del>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase">
+              
+            <div class="showcase-banner">
+              <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                width="300">
+              <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                width="300">
+          
+              <p class="showcase-badge angle black">sale</p>
+          
+              <div class="showcase-actions">
+                <button class="btn-action">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="showcase-content">
+                <a href="#" class="showcase-category">Lacre para bolo de pote</a>
+            
+                <h3>
+                  <a href="#" class="showcase-title">Eternize seus momentos</a>
+                </h3>
+            
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+            
+                <div class="price-box">
+                  <p class="price">$2,00</p>
+                  <del>$5,00</del>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase">
+              
+            <div class="showcase-banner">
+              <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                width="300">
+              <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                width="300">
+          
+              <p class="showcase-badge angle black">sale</p>
+          
+              <div class="showcase-actions">
+                <button class="btn-action">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="showcase-content">
+                <a href="#" class="showcase-category">Lacre para copo bolha</a>
+            
+                <h3>
+                  <a href="#" class="showcase-title">Eternize seus momentos</a>
+                </h3>
+            
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+            
+                <div class="price-box">
+                  <p class="price">$2,00</p>
+                  <del>$5,00</del>
+                </div>
+              </div>
+            </div>
+            
+            <div class="showcase">
+              
+            <div class="showcase-banner">
+              <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                width="300">
+              <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                width="300">
+          
+              <p class="showcase-badge angle black">sale</p>
+          
+              <div class="showcase-actions">
+                <button class="btn-action">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="showcase-content">
+                <a href="#" class="showcase-category">Tag Personalizada</a>
+            
+                <h3>
+                  <a href="#" class="showcase-title">Em papel off set; Redondo ou quadrada</a>
+                </h3>
+            
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+            
+                <div class="price-box">
+                  <p class="price">$2,00</p>
+                  <del>$5,00</del>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase">
+              
+            <div class="showcase-banner">
+              <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                width="300">
+              <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                width="300">
+          
+              <p class="showcase-badge angle black">sale</p>
+          
+              <div class="showcase-actions">
+                <button class="btn-action">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+          
+                <button class="btn-action">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="showcase-content">
+                <a href="#" class="showcase-category">Tag em</a>
+            
+                <h3>
+                  <a href="#" class="showcase-title">Eternize seus momentos</a>
+                </h3>
+            
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+            
+                <div class="price-box">
+                  <p class="price">$2,00</p>
+                  <del>$5,00</del>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase">
+              
+              <div class="showcase-banner">
+                <img src="./assets/images/products/polaroid.webp" alt="" class="product-img default"
+                  width="300">
+                <img src="./assets/images/products/polaroid.jpeg" alt="Ete" class="product-img hover"
+                  width="300">
+            
+                <p class="showcase-badge angle black">sale</p>
+            
+                <div class="showcase-actions">
+                  <button class="btn-action">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+            
+                  <button class="btn-action">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </button>
+            
+                  <button class="btn-action">
+                    <ion-icon name="repeat-outline"></ion-icon>
+                  </button>
+            
+                  <button class="btn-action">
+                    <ion-icon name="bag-add-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+  
+              <div class="showcase-content">
+                  <a href="#" class="showcase-category">Tag Personalizada</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Eternize seus momentos</a>
+                    <a href="#" class="showcase-title">Em papel off set; Redondo ou quadrada</a>
                   </h3>
               
                   <div class="showcase-rating">
@@ -864,950 +1706,443 @@
                     <p class="price">$2,00</p>
                     <del>$5,00</del>
                   </div>
-              
                 </div>
-              
               </div>
-
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/recortefundo.webp" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img default"
-                    width="300">
-                  <img src="./assets/images/products/letraC.jpeg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img hover"
-                    width="300">
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Nome em recorte</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title">Minímo 10 unidades</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">A partir de R$1,35 UN</p>
-                    <del>$2,50</del>
-                  </div>
-              
-                </div>
-              
               </div>
-
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/livrodecolorir.webp" alt="Black Floral Wrap Midi Skirt" class="product-img default"
-                    width="300">
-                  <img src="./assets/images/products/livrodepintar.webp" alt="Black Floral Wrap Midi Skirt" class="product-img hover"
-                    width="300">
-              
-                  <p class="showcase-badge angle pink">new</p>
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Livro de colorir</a>
-                  <a href="#" class="showcase-category">A partir de 10 unidades</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title">Tamanho: 10x15cm</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">A partir de $1.50</p>
-                    <del>$5.00</del>
-                  </div>
-              
-                </div>
-              
               </div>
-
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/tubo3d.webp" alt="Casual Men's Brown shoes" class="product-img default"
-                    width="300">
-                  <img src="./assets/images/products/tubete2.webp" alt="Casual Men's Brown shoes" class="product-img hover"
-                    width="300">
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Tubete Personalizado 3D</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title">Tamanho: 13cm</a>
-                    <a href="#" class="showcase-title">Minímo 10 UN</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$2,00</p>
-                    <del>$6,00/del>
-                  </div>
-              
-                </div>
-              
               </div>
-
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/marmita.webp" alt="Pocket Watch Leather Pouch" class="product-img default"
-                    width="300">
-                  <img src="./assets/images/products/marmita2.jpg" alt="Pocket Watch Leather Pouch" class="product-img hover"
-                    width="300">
-              
-                  <p class="showcase-badge angle black">sale</p>
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Marmita personalizada</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title">Minimo 15 UN</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$8,50 UN</p>
-                    <del>$11,00</del>
-                  </div>
-              
-                </div>
-              
               </div>
+              
+  
 
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/balaonumero.webp" alt="Smart watche Vital Plus" class="product-img default"
-                    width="300">
-                  <img src="./assets/images/products/balaonumero2.jfif" alt="Smart watche Vital Plus" class="product-img hover" width="300">
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Balão de número</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title">Do 0 ao 9</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$23,00</p>
-                    <del>$33,00</del>
-                  </div>
-              
-                </div>
-              
-              </div>
-
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/diadosnamorados.webp" alt="Womens Party Wear Shoes" class="product-img default"
-                    width="300">
-                  <img src="./assets/images/products/diadosnamrados22.jfif" alt="Womens Party Wear Shoes" class="product-img hover"
-                    width="300">
-              
-                  <p class="showcase-badge angle black">sale</p>
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Surpresa dia dos namorados</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title">Um presentre especial para alguém especial</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$30,00</p>
-                    <del>$45,00</del>
-                  </div>
-              
-                </div>
-              
-              </div>
-
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/balão1.webp" alt="Mens Winter Leathers Jackets" class="product-img default"
-                    width="300">
-                  <img src="./assets/images/products/balaonome.jpg" alt="Mens Winter Leathers Jackets" class="product-img hover"
-                    width="300">
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Balão Personalizado</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title">Consultar cores disponíveis</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$37,00</p>
-                    <del>$47,00</del>
-                  </div>
-              
-                </div>
-              
-              </div>
-
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/taça.png" alt="Trekking & Running Shoes - black" class="product-img default"
-                    width="300">
-                  <img src="./assets/images/products/taça02.jpeg" alt="Trekking & Running Shoes - black" class="product-img hover"
-                    width="300">
-              
-                  <p class="showcase-badge angle black">sale</p>
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Taça personalizada</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title">Única e exclusiva para cada cliente</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$25,00</p>
-                    <del>$30,00</del>
-                  </div>
-              
-                </div>
-              
-              </div>
-
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/chaveiroo.jpeg" alt="Men's Leather Formal Wear shoes" class="product-img default"
-                    width="300">
-                  <img src="./assets/images/products/chaveiro02.jpeg" alt="Men's Leather Formal Wear shoes" class="product-img hover"
-                    width="300">
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Chaveiro Tabuada</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title">Verificar personagens disponíveis</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$3,50 UN</p>
-                    <del>$5.00</del>
-                  </div>
-              
-                </div>
-              
-              </div>
-
-              <div class="showcase">
-              
-                <div class="showcase-banner">
-                  <img src="./assets/images/products/cesta dia dos pais.jpeg" alt="Better Basics French Terry Sweatshorts"
-                    class="product-img default" width="300">
-                  <img src="./assets/images/products/cestapai.jpeg" alt="Better Basics French Terry Sweatshorts"
-                    class="product-img hover" width="300">
-              
-                  <p class="showcase-badge angle black">sale</p>
-              
-                  <div class="showcase-actions">
-                    <button class="btn-action">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="repeat-outline"></ion-icon>
-                    </button>
-              
-                    <button class="btn-action">
-                      <ion-icon name="bag-add-outline"></ion-icon>
-                    </button>
-                  </div>
-                </div>
-              
-                <div class="showcase-content">
-                  <a href="#" class="showcase-category">Cesta Personalizada</a>
-              
-                  <h3>
-                    <a href="#" class="showcase-title"> Consultar cores disponíveis</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$3,50 UN</p>
-                    <del>$6,00</del>
-                  </div>
-              
-                </div>
-              
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-
-
-
-    <!--
-      - TESTIMONIALS, CTA & SERVICE
-    -->
+<!--- TESTEMUNHAS, CTA & SERVICE-->
 
     <div>
 
-      <div class="container">
-
-        <div class="testimonials-box">
-
-          <!--
-            - TESTIMONIALS
-          -->
-
-          <div class="testimonial">
-
-            <h2 class="title">Avaliações</h2>
-
-            <div class="testimonial-card">
-
-              <img src="./assets/images/testimonial-1.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80">
-
-              <p class="testimonial-name">Julia Amorim</p>
-
-              <p class="testimonial-title">Cliente</p>
-
-              <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
-
-              <p class="testimonial-desc">
-               Trabalho impecável, adquiri livros de colorir para o aniversário do meu filho e ficou do jeito que eu queria. Nota 10!
-              </p>
-
+        <div class="container">
+  
+          <div class="testimonials-box">
+  
+            <!--- TESTEMUNHA-->
+  
+            <div class="testimonial">
+  
+              <h2 class="title">Avaliações</h2>
+  
+              <div class="testimonial-card">
+  
+                <img src="./assets/images/testimonial-1.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80">
+  
+                <p class="testimonial-name">Julia Amorim</p>
+  
+                <p class="testimonial-title">Cliente</p>
+  
+                <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
+  
+                <p class="testimonial-desc">
+                 Trabalho impecável, adquiri livros de colorir para o aniversário do meu filho e ficou do jeito que eu queria. Nota 10!
+                </p>
+  
+              </div>
+  
             </div>
-
-          </div>
-
-
-
-          <!--
-            - CTA
-          -->
-
-          <div class="cta-container">
-
-            <img src="./assets/images/cta-banner.jpg" alt="summer collection" class="cta-banner">
-
-            <a href="#" class="cta-content">
-
-              <p class="discount">25% de Desconto</p>
-
-              <h2 class="cta-title">KIT DE ADESIVOS</h2>
-
-              <p class="cta-text">Apartir de $10</p>
-
-              <button class="cta-btn">Compre Agora</button>
-
-            </a>
-
-          </div>
-
-
-
-          <!--
-            - SERVICE
-          -->
-
-          <div class="service">
-
-            <h2 class="title">Nossos Serviços</h2>
-
-            <div class="service-container">
-
-             
-
-              <a href="#" class="service-item">
-              
-                <div class="service-icon">
-                  <ion-icon name="rocket-outline"></ion-icon>
-                </div>
-              
-                <div class="service-content">
-              
-                  <h3 class="service-title">Frete Personalizados</h3>
-                  <p class="service-desc">Apenas no Brasil</p>
-              
-                </div>
-              
+  
+  
+  
+            <!--- CTA-->
+  
+            <div class="cta-container">
+  
+              <img src="./assets/images/cta-banner.jpg" alt="summer collection" class="cta-banner">
+  
+              <a href="#" class="cta-content">
+  
+                <p class="discount">25% de Desconto</p>
+  
+                <h2 class="cta-title">KIT DE ADESIVOS</h2>
+  
+                <p class="cta-text">Apartir de $10</p>
+  
+                <button class="cta-btn">Compre Agora</button>
+  
               </a>
-
-              <a href="#" class="service-item">
-              
-                <div class="service-icon">
-                  <ion-icon name="call-outline"></ion-icon>
-                </div>
-              
-                <div class="service-content">
-              
-                  <h3 class="service-title">Suporte Online</h3>
-                  <p class="service-desc">Horas: 8AM - 11PM</p>
-              
-                </div>
-              
-              </a>
-
-              <a href="#" class="service-item">
-              
-                <div class="service-icon">
-                  <ion-icon name="arrow-undo-outline"></ion-icon>
-                </div>
-              
-                <div class="service-content">
-              
-                  <h3 class="service-title">Politica de Retorno</h3>
-                  <p class="service-desc">Não fazemos trocas e devoluções</p>
-              
-                </div>
-              
-              </a>
-
+  
             </div>
-
+  
+  
+  
+            <!--- SERVICE-->
+  
+            <div class="service">
+  
+              <h2 class="title">Nossos Serviços</h2>
+  
+              <div class="service-container">
+  
+               
+  
+                <a href="#" class="service-item">
+                
+                  <div class="service-icon">
+                    <ion-icon name="rocket-outline"></ion-icon>
+                  </div>
+                
+                  <div class="service-content">
+                
+                    <h3 class="service-title">Frete Personalizados</h3>
+                    <p class="service-desc">Apenas no Brasil</p>
+                
+                  </div>
+                
+                </a>
+  
+                <a href="#" class="service-item">
+                
+                  <div class="service-icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                  </div>
+                
+                  <div class="service-content">
+                
+                    <h3 class="service-title">Suporte Online</h3>
+                    <p class="service-desc">Horas: 8AM - 11PM</p>
+                
+                  </div>
+                
+                </a>
+  
+                <a href="#" class="service-item">
+                
+                  <div class="service-icon">
+                    <ion-icon name="arrow-undo-outline"></ion-icon>
+                  </div>
+                
+                  <div class="service-content">
+                
+                    <h3 class="service-title">Politica de Retorno</h3>
+                    <p class="service-desc">Não fazemos trocas e devoluções</p>
+                
+                  </div>
+                
+                </a>
+  
+              </div>
+  
+            </div>
+  
           </div>
-
+  
         </div>
-
+  
       </div>
+  
+  
+  
+  
+  
+      
+  
+    </main>
+  
+  
+  
+  
+  
+    <!--
+      - FOOTER
+    -->
+  
+    <footer>
+  
+      <div class="footer-category">
+  
+        <div class="container">
+  
+          <h2 class="footer-category-title">Produtos</h2>
+  
+          <div class="footer-category-box">
+  
+            <h3 class="category-box-title">Emabalagens :</h3>
+  
+            <a href="#" class="footer-category-link">Caixa meia bala</a>
+            <a href="#" class="footer-category-link">Caixa Pirâmide</a>
+            <a href="#" class="footer-category-link">Caixa Milk com Laço</a>
+            <a href="#" class="footer-category-link">Tubete Personalizado</a>
+  
+          </div>
+  
+          <div class="footer-category-box">
+            <h3 class="category-box-title">Decoração</h3>
+          
+            <a href="#" class="footer-category-link">Agradecimento de mesa</a>
+            <a href="#" class="footer-category-link">Idade em recorte</a>
+            <a href="#" class="footer-category-link">Nome em recorte</a>
+            <a href="#" class="footer-category-link">Adesivo personalizado</a>
+          </div>
+  
+          <div class="footer-category-box">
+            <h3 class="category-box-title">Kits e complementos</h3>
+          
+            <a href="#" class="footer-category-link">Sacolinha Personalizada</a>
+            <a href="#" class="footer-category-link">Lacre para sacolinha</a>
+            <a href="#" class="footer-category-link">Cesta personalizada</a>
+            <a href="#" class="footer-category-link">Foto Polaroid</a>
+          </div>
+  
+          <div class="footer-category-box">
+            <h3 class="category-box-title">Personalizados</h3>
+          
+            <a href="#" class="footer-category-link">Garrafa Personalizada</a>
+            <a href="#" class="footer-category-link">Lápis Personalizado</a>
+            <a href="#" class="footer-category-link">Caderno de colorir Personalizado</a>
+            <a href="#" class="footer-category-link">Tag Personalizada</a>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+      <div class="footer-nav">
+  
+        <div class="container">
+  
+          <ul class="footer-nav-list">
+  
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Produtos Populares</h2>
+            </li>
+  
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Tag Personalizada</a>
+            </li>
+  
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Garrafa Personalizada</a>
+            </li>
+  
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Livro de colorir</a>
+            </li>
+  
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Sacolinha personalizada</a>
+            </li>
+  
+  
+          </ul>
+  
+          <ul class="footer-nav-list">
+          
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Produtos</h2>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Lápis personalizado</a>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Polaroid</a>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Balões</a>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Embalagens</a>
+            </li>
+          
+          </ul>
+  
+          <ul class="footer-nav-list">
+          
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Nossa Empresa</h2>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Entrega para todo Brasil</a>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Segurança e praticidade</a>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Itens Personalizados</a>
+            </li>
+          
+          
+          </ul>
+  
+          <ul class="footer-nav-list">
+          
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Serviços</h2>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Decoração</a>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Embalagens</a>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Adesivos</a>
+            </li>
+          
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Kits</a>
+            </li>
+  
+          
+          </ul>
+  
+          <ul class="footer-nav-list">
+  
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Contato</h2>
+            </li>
+  
+            <li class="footer-nav-item flex">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+  
+              <address class="content">
+                Rua Irmã Dulce, 11 - Santa Maria, 
+                Osaco, SP 
+                06149-217
+              </address>
+            </li>
+  
+            <li class="footer-nav-item flex">
+              <div class="icon-box">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+  
+              <a href="tel:+607936-8058" class="footer-nav-link"> WhatsApp - (11) 94826-8791</a>
+            </li>
+  
+            <li class="footer-nav-item flex">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+  
+              <a href="mailto:example@gmail.com" class="footer-nav-link">festbumbaloespersonalizados@gmail.com</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-nav-list">
+  
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Nossas Redes Sociais</h2>
+            </li>
+  
+            <li>
+              <ul class="social-link">
+  
+                <li class="footer-nav-item">
+                  <a href="https://www.instagram.com/festbum_personalizados/" class="footer-nav-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+  
+              
+                <li class="footer-nav-item">
+                  <a href="https://api.whatsapp.com/send/?phone=5511948268791&text&type=phone_number&app_absent=0" class="footer-nav-link">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </a>
+                </li>
+  
+              </ul>
+            </li>
+  
+          </ul>
+  
+        </div>
+  
+      </div>
+  
+      <div class="footer-bottom">
+  
+        <div class="container">
+  
+          <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+  
+          <p class="copyright">
+            Copyright &copy; <a href="#">Fest Bum</a> all rights reserved.
+          </p>
+  
+        </div>
+  
+      </div>
+  
+    </footer>
+  
+  
+  
+  
+  
+  
+    <!--
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+  
+    <!--
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  </body>
+  
+  </html>
+  
 
-    </div>
+
+            
 
 
 
 
+            
 
+
+
+
+                                                
+                                                
+                                                        
+                                            
+                                            
+                                                    
+                                        
+                                        
+                                                
+                                    
+                                    
+                                
+                            
+                            
+                        
+                        
+                    
+                    
+                
+                
+                        
+            
+            
+                    
+        
+        
+                
+    
     
 
-  </main>
-
-
-
-
-
-  <!--
-    - FOOTER
-  -->
-
-  <footer>
-
-    <div class="footer-category">
-
-      <div class="container">
-
-        <h2 class="footer-category-title">Produtos</h2>
-
-        <div class="footer-category-box">
-
-          <h3 class="category-box-title">Emabalagens :</h3>
-
-          <a href="#" class="footer-category-link">Caixa meia bala</a>
-          <a href="#" class="footer-category-link">Caixa Pirâmide</a>
-          <a href="#" class="footer-category-link">Caixa Milk com Laço</a>
-          <a href="#" class="footer-category-link">Tubete Personalizado</a>
-
-        </div>
-
-        <div class="footer-category-box">
-          <h3 class="category-box-title">Decoração</h3>
-        
-          <a href="#" class="footer-category-link">Agradecimento de mesa</a>
-          <a href="#" class="footer-category-link">Idade em recorte</a>
-          <a href="#" class="footer-category-link">Nome em recorte</a>
-          <a href="#" class="footer-category-link">Adesivo personalizado</a>
-        </div>
-
-        <div class="footer-category-box">
-          <h3 class="category-box-title">Kits e complementos</h3>
-        
-          <a href="#" class="footer-category-link">Sacolinha Personalizada</a>
-          <a href="#" class="footer-category-link">Lacre para sacolinha</a>
-          <a href="#" class="footer-category-link">Cesta personalizada</a>
-          <a href="#" class="footer-category-link">Foto Polaroid</a>
-        </div>
-
-        <div class="footer-category-box">
-          <h3 class="category-box-title">Personalizados</h3>
-        
-          <a href="#" class="footer-category-link">Garrafa Personalizada</a>
-          <a href="#" class="footer-category-link">Lápis Personalizado</a>
-          <a href="#" class="footer-category-link">Caderno de colorir Personalizado</a>
-          <a href="#" class="footer-category-link">Tag Personalizada</a>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="footer-nav">
-
-      <div class="container">
-
-        <ul class="footer-nav-list">
-
-          <li class="footer-nav-item">
-            <h2 class="nav-title">Produtos Populares</h2>
-          </li>
-
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Tag Personalizada</a>
-          </li>
-
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Garrafa Personalizada</a>
-          </li>
-
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Livro de colorir</a>
-          </li>
-
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Sacolinha personalizada</a>
-          </li>
-
-
-        </ul>
-
-        <ul class="footer-nav-list">
-        
-          <li class="footer-nav-item">
-            <h2 class="nav-title">Produtos</h2>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Lápis personalizado</a>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Polaroid</a>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Balões</a>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Embalagens</a>
-          </li>
-        
-        </ul>
-
-        <ul class="footer-nav-list">
-        
-          <li class="footer-nav-item">
-            <h2 class="nav-title">Nossa Empresa</h2>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Entrega para todo Brasil</a>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Segurança e praticidade</a>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Itens Personalizados</a>
-          </li>
-        
-        
-        </ul>
-
-        <ul class="footer-nav-list">
-        
-          <li class="footer-nav-item">
-            <h2 class="nav-title">Serviços</h2>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Decoração</a>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Embalagens</a>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Adesivos</a>
-          </li>
-        
-          <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Kits</a>
-          </li>
-
-        
-        </ul>
-
-        <ul class="footer-nav-list">
-
-          <li class="footer-nav-item">
-            <h2 class="nav-title">Contato</h2>
-          </li>
-
-          <li class="footer-nav-item flex">
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <address class="content">
-              Rua Irmã Dulce, 11 - Santa Maria, 
-              Osaco, SP 
-              06149-217
-            </address>
-          </li>
-
-          <li class="footer-nav-item flex">
-            <div class="icon-box">
-              <ion-icon name="call-outline"></ion-icon>
-            </div>
-
-            <a href="tel:+607936-8058" class="footer-nav-link"> WhatsApp - (11) 94826-8791</a>
-          </li>
-
-          <li class="footer-nav-item flex">
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <a href="mailto:example@gmail.com" class="footer-nav-link">festbumbaloespersonalizados@gmail.com</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-nav-list">
-
-          <li class="footer-nav-item">
-            <h2 class="nav-title">Follow Us</h2>
-          </li>
-
-          <li>
-            <ul class="social-link">
-
-              <li class="footer-nav-item">
-                <a href="#" class="footer-nav-link">
-                  <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-              </li>
-
-              <li class="footer-nav-item">
-                <a href="#" class="footer-nav-link">
-                  <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-              </li>
-
-              <li class="footer-nav-item">
-                <a href="#" class="footer-nav-link">
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-              </li>
-
-              <li class="footer-nav-item">
-                <a href="#" class="footer-nav-link">
-                  <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-              </li>
-
-            </ul>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-
-    <div class="footer-bottom">
-
-      <div class="container">
-
-        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
-
-        <p class="copyright">
-          Copyright &copy; <a href="#">Fest Bum</a> all rights reserved.
-        </p>
-
-      </div>
-
-    </div>
-
-  </footer>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
-</html>
