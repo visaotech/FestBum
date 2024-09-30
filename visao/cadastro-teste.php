@@ -29,20 +29,6 @@
                 </div>
             </div>
 
-
-            <div class="row mb-3">
-                <div class="col-md-6">
-                    <div class="form-floating">
-                        <select class="form-select" id="genderSelect" required>
-                            <option value="">Escolha...</option>
-                            <option value="feminino">Feminino</option>
-                            <option value="masculino">Masculino</option>
-                            <option value="outro">Outro</option>
-                            <option value="nao_informar">Prefiro não informar</option>
-                        </select>
-                        <label for="genderSelect">Gênero</label>
-                    </div>
-                </div>
                 <div class="col-md-6">
                     <div class="form-floating">
                         <input type="text" class="form-control" id="floatingCidade" placeholder="Cidade" required>
@@ -65,7 +51,14 @@
                     </div>
                 </div>
             </div>
-
+              <div class="row mb-3">
+                <div class="col-md-12">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="nome@exemplo.com" required>
+                    <label for="floatingEmail">Email</label>
+                  </div>
+                </div>
+              </div>
             <div class="row mb-3">
                 <div class="col-md-6">
                     <div class="form-floating">
