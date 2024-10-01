@@ -1,115 +1,95 @@
 <!DOCTYPE html>
-<html lang="">
-
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fest Bum - Personalizados</title>
-  <link rel="shortcut icon" href="./assets/images/logo/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="../assets/css/estilo.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
+    <title>Cadastro</title>
 </head>
+<body class="d-flex justify-content-center align-items-center min-vh-100 bg-body-tertiary">
+    <main class="form-container">
+        
+        <form action="../controladora/processar-cadastro.php" method="POST">
+            <img src="../assets/images/logo/favicon.png" alt="Logo" class="mb-4" />
+            <h1 class="h3 mb-3 fw-normal">Por favor, faça seu cadastro</h1>
+            <!-- Exemplo de campos -->
+            <div class="row mb-3" >
+                <div class="col-md-6">
+                    <div class="form-floating">
+                    <input type="text" name="primeironome" class="form-control" id="floatingNome" required placeholder="Primeiro Nome">
+                        <label for="floatingNome">Primeiro Nome</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                    <input type="text" name="sobrenome" class="form-control" id="floatingSobrenome" required placeholder="Sobrenome">
+                        <label for="floatingSobrenome">Sobrenome</label>
+                    </div>
+                </div>
+            </div>
 
-  <body>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                    <input type="text" name="cidade" class="form-control" id="floatingCidade" required placeholder="Cidade">
+                        <label for="floatingCidade">Cidade</label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                    <input type="text" name="estado" class="form-control" id="floatingEstado" required placeholder="Estado">
+                        <label for="floatingEstado">Estado</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                    <input type="text" name="cep"  class="form-control" id="floatingCEP" required placeholder="CEP">
+                        <label for="floatingCEP">CEP</label>
+                    </div>
+                </div>
+            </div>
+              <div class="row mb-3">
+                <div class="col-md-12">
+                  <div class="form-floating">
+                  <input type="email" name="email" class="form-control" id="floatingEmail" required placeholder="Email">
+                    <label for="floatingEmail">Email</label>
+                  </div>
+                </div>
+              </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                    <input type="password" name="senha" class="form-control" id="floatingSenha" required placeholder="Senha">
+                        <label for="floatingSenha">Senha</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                    <input type="password" name="confirmarsenha" class="form-control" id="floatingConfirmarSenha" required placeholder="Confirmar Senha">
+                        <label for="floatingConfirmarSenha">Confirmar Senha</label>
+                    </div>
+                </div>
+            </div>
 
-  <header>
-      <div class="header-top">
-        <div class="container">
-          <ul class="header-social-container">
-            <li>
-              <a href="https://www.instagram.com/festbum_personalizados/" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-            <li> 
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-          </ul>
-          <div class="header-alert-news">
-            <p>
-              <b>FRETE PERSONALIZADO</b>
-              PARA ENCOMENDAS
-            </p>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="header-main">
-        <div class="container">
-          <a href="#" class="header-logo">
-            <img src="../assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
-          </a> 
-          <div class="header-user-actions">
-            <a href="login.php">
-              <button class="action-btn">
-                <ion-icon name="person-outline"></ion-icon>
-              </button>
-            </a>
-            <a href="cadastrar-usuario.php">
-              <button class="action-btn">
-                <ion-icon name="heart-outline"></ion-icon>
-                <span class="count">0</span>
-              </button>
-            </a>
-            
-            <!-- <a href=".php"></a> -->
-              <button class="action-btn">
-                <ion-icon name="bag-handle-outline"></ion-icon>
-                <span class="count">0</span>
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-  <heder>
+            <div class="form-check text-start my-3">
+                <input type="checkbox" class="form-check-input" id="flexCheckDefault" required>
+                <label class="form-check-label" for="flexCheckDefault">Concordo com os termos e condições</label>
+            </div>
 
-  <main>
-    <div class="container-form">
-    <section class="container-admin-banner">
-        <h1>Cadastro</h1>
-    </section>
-
-      <form method="post" action="../controladora/processar-cadastro.php">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" 
-          placeholder="Digite o nome do produto" required>
-          <br>
-          <label for="email">e-mail</label>
-          <input type="email" id="email" name="email" 
-          placeholder="Digite seu email" required>
-          <br>
-          <label for="senha">Senha</label>
-          <input type="password" id="senha" name="senha" 
-          placeholder="Digite uma senha" required>
-         <br>
-          <label for="confirmarsenha">Confirmar Senha</label>
-          <input type="password" id="confirmarsenha" name="confirmarsenha" 
-          placeholder="Digite uma senha" required>
-        <?php 
+            <?php 
           if(isset($_GET["erro"])){
               //echo "erro! senha e confirmar senha não são iguais";
           ?>
               <label for="erro">Senha e confirmar senha não são iguais</label>
           <?php } ?>
 
-          <input type="submit" name="cadastro" class="botao-cadastrar" 
-          value="Cadastrar usuario"/>
-      </form>
-    </div> 
+            <button type="submit" class="btn btn-primary w-100 py-2">Cadastrar</button>
 
-    </section>
-  </main>
-
+      
+        </form>
+    </main>
 </body>
 </html>

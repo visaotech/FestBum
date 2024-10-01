@@ -13,4 +13,8 @@ if ($conn->connect_error) {
 }
 
 echo "Conexão bem-sucedida!";
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 ?>

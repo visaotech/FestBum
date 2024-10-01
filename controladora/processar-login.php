@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $tempo_expiracao = time() + 420; // 7 minutos
 
         // Define o cookie com o token e tempo de expiração
-        setcookie("cookieRenato", $token, $tempo_expiracao, "/");
+        setcookie("cookieFestbum", $token, $tempo_expiracao, "/");
 
         // Inicia a sessão e armazena dados
         session_start();
@@ -31,10 +31,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['nome_cookie_login'] = $token;
 
         $_SESSION["usuario"] = true;
-        $_SESSION["nomeusuario"] = $usuario["nome"];
+        $_SESSION["primeironome"] = $usuario["primeironome"];
 
         // Redireciona para a página index.html com parâmetros de query string
-        header("Location: ../index.php?cookie={$token}&tempo={$tempo_expiracao}");
+        header("Location: ../index.html?cookie={$token}&tempo={$tempo_expiracao}");
         exit();
     } else {
         // Redireciona com mensagem de erro
