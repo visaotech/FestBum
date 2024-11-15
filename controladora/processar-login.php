@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION["primeironome"] = $usuario["primeironome"];
 
         // Redireciona para a página index.html com parâmetros de query string
-        header("Location: ../index.html?cookie={$token}&tempo={$tempo_expiracao}");
+        header("Location: ../visao/index.php?cookie={$token}&tempo={$tempo_expiracao}");
         exit();
     } else {
         // Redireciona com mensagem de erro

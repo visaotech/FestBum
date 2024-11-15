@@ -14,12 +14,23 @@ CREATE TABLE usuario (
 select * from usuario;
 
 CREATE TABLE produtos (
-    id INT(6) UNSIGNED AUTO_INCREMENT primary key,
-    nome VARCHAR(255) NOT NULL,
-    quantidade INT NOT NULL,
-    valor DECIMAL(10,2) NOT NULL
-);
+    id INT NOT NULL AUTO_INCREMENT, 
+    nome VARCHAR(45) NOT NULL, 
+    imagem VARCHAR(80) NOT NULL, 
+    preco DECIMAL (5,2) NOT NULL, 
+PRIMARY KEY (id));
+ALTER TABLE produtos ADD COLUMN tipo VARCHAR(255) NOT NULL;
+ALTER TABLE produtos ADD COLUMN descricao TEXT;
+
+
 select * from produtos;
 
+#delete from produtos where id >33;
+update produtos set imagem = concat("../img/",imagem) where id= 33;
 
+select * from usuario;
+
+
+alter table usuario add perfil varchar(50) default(0);
+update usuario set perfil = 'admin' where email = 'festbum@gmail.com';
 

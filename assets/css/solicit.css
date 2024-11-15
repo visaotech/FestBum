@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a { text-decoration: none; }
+  
+  li { list-style: none; }
+  
+  button {
+    background: none;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+  }
+  
+  img, ion-icon, button, a { display: block; }
+  
+  span { display: inline-block; }
+  
+  html {
+    font-family: "Poppins", sans-serif;
+    overscroll-behavior: contain;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    font: inherit;
+  }
+  
+  input::placeholder { font: inherit; }
+  
+  body { background: white; }
+  
+  .texto{
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .info{
+    text-align: center;
+  }
+.btn{
+    background-color: lightpink;
+    border-color: pink;
+}
+.info-box {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #f3f3f3; 
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  min-height: 400px;
+}
