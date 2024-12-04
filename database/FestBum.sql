@@ -13,7 +13,6 @@ CREATE TABLE usuarios (
     senha VARCHAR(255) NOT NULL,
     sexo ENUM('Feminino', 'Masculino', 'Outro', 'Prefiro não dizer') NOT NULL,  -- Adicionando mais opções no sexo
     data_nascimento DATE NOT NULL,
-    foto VARCHAR(255) DEFAULT '../assets/images/usuarios/default.jpg'  -- Mantendo o nome 'foto'
 );
 
 select * from usuarios;
