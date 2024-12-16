@@ -1,0 +1,15 @@
+[16-Dec-2024 17:10:38 UTC] PHP Warning:  require_once(/home2/hostdeprojetos/public_html/FestBum/app/config.php): Failed to open stream: No such file or directory in /home2/hostdeprojetos/public_html/FestBum/app/controllers/CtrlProdutos.php on line 5
+[16-Dec-2024 17:10:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/hostdeprojetos/public_html/FestBum/app/config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/hostdeprojetos/public_html/FestBum/app/controllers/CtrlProdutos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home2/hostdeprojetos/public_html/FestBum/app/controllers/CtrlProdutos.php on line 5
+[16-Dec-2024 17:10:44 UTC] PHP Warning:  require_once(/home2/hostdeprojetos/public_html/FestBum/app/config.php): Failed to open stream: No such file or directory in /home2/hostdeprojetos/public_html/FestBum/app/controllers/CtrlProdutos.php on line 5
+[16-Dec-2024 17:10:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/hostdeprojetos/public_html/FestBum/app/config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/hostdeprojetos/public_html/FestBum/app/controllers/CtrlProdutos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home2/hostdeprojetos/public_html/FestBum/app/controllers/CtrlProdutos.php on line 5
+[16-Dec-2024 17:10:56 UTC] PHP Warning:  require_once(/home2/hostdeprojetos/public_html/FestBum/app/config.php): Failed to open stream: No such file or directory in /home2/hostdeprojetos/public_html/FestBum/app/controllers/CtrlProdutos.php on line 5
+[16-Dec-2024 17:10:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/hostdeprojetos/public_html/FestBum/app/config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/hostdeprojetos/public_html/FestBum/app/controllers/CtrlProdutos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home2/hostdeprojetos/public_html/FestBum/app/controllers/CtrlProdutos.php on line 5
