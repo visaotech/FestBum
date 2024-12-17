@@ -25,22 +25,22 @@ if ($mostrarErros) {
 
 require_once __DIR__ . '/autoload.php';
 
-$config = new Configurations ( "ifhostgru_festbum" );
+$config = new Configurations ( "hostdeprojetos_FestBum" );
 
 $config->setDatabase ( [ 
 		'sgbd' => 'mysql',
-		'host' => 'localhost',
-		'user' => 'ifhostgru_festbum',
-		'pass' => 'VisaoTech2024',
-		'schema' => 'ifhostgru_festbum',
+		'host' => '144.217.39.54',
+		'user' => 'hostdeprojetos',
+		'pass' => 'ifspgru@2022',
+		'schema' => 'hostdeprojetos_FestBum',
 		'port' => '3306'
 ] );
 
 $config->setSmtp ( [ 
-		'host' => 'localhost',
+		'host' => '144.217.39.54',
 		'port' => 3306,
-		'username' => 'ifhostgru',
-		'password' => 'VisaoTech2024'
+		'username' => 'hostdeprojetos',
+		'password' => 'ifspgru@2022'
 ] );
 
 $config->setUrl ( [ 
