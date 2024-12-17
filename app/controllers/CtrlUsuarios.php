@@ -11,7 +11,7 @@ class CtrlUsuarios extends ControllerHandler {
 	private $usuarios = null;
 	public function __construct() {
 		// em caso de estar logado e ser admin
-		// if (isset ( $_SESSION ['user'] ) && ($_SESSION ['user'] ['perfil'] == 'admin')) {
+		if (isset ( $_SESSION ['user'] ) && ($_SESSION ['user'] ['perfil'] == 'admin')) {
 		$this->usuarios = new Usuarios ();
 		parent::__construct (); // chama o get, post, put e delete e faz os tratamentos*/
 		
