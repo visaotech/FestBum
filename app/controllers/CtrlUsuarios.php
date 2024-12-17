@@ -13,14 +13,14 @@ class CtrlUsuarios extends ControllerHandler {
 		// em caso de estar logado e ser admin
 		// if (isset ( $_SESSION ['user'] ) && ($_SESSION ['user'] ['perfil'] == 'admin')) {
 		$this->usuarios = new Usuarios ();
-		parent::__construct (); // chama o get, post, put e delete e faz os tratamentos
-		/*
-		 * } else {
-		 * $this->jsonResponse ( array (
-		 * 'error' => 'Acesso Negado'
-		 * ), 401 );
-		 * }
-		 */
+		parent::__construct (); // chama o get, post, put e delete e faz os tratamentos*/
+		
+		 } else {
+		 $this->jsonResponse ( array (
+		 'error' => 'Acesso Negado'
+		  ), 401 );
+		  }
+		 
 	}
 	public function get() {
 		$idUsuario = $this->getParameter ( 'idUsuario' );
