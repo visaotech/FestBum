@@ -39,7 +39,7 @@ $config->setDatabase ( [
 $config->setSmtp ( [ 
 		'host' => 'localhost',
 		'port' => 3306,
-		'username' => 'ifhostgru_festbum',
+		'username' => 'ifhostgru',
 		'password' => 'VisaoTech2024'
 ] );
 
